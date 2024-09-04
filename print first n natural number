@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+int n,i=1,num;
+printf("\n enter number");
+scanf("%d",&n);
+num:
+printf("\n%d",i);
+i++;
+if (i<=n)
+goto num;
+return 0;
+}
